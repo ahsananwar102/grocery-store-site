@@ -356,7 +356,7 @@ body{
   }
 
   #testimonials h2{
-    font-size: medium !important;
+    font-size: large !important;
     font-weight: 600 !important;
   }
 
@@ -370,7 +370,7 @@ body{
   }
 
   .card{
-    width: 8rem !important;
+    width: 9rem !important;
     margin: 0 auto !important;
   }
 
