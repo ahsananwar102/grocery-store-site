@@ -1,0 +1,397 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* CONTAINERS */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* NAVIGATION BAR */
+
+
+.navbar{
+  background: whitesmoke;
+  padding: 1% 2%;
+  box-shadow: 0px 5px 10px 0 #000;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.navbar-brand{
+  font-family: 'Pacifico', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #6fbe44;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 4px;
+  text-shadow: 2px 0 5px #000;
+}
+
+.navbar-brand:hover{
+  color: #fff;
+}
+
+.nav-item{
+  padding: 8px 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+  color: #8f8f8f;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #6fbe44;
+}
+
+.nav-link:active{
+  color: #6fbe44;
+}
+
+.navbar-toggler{
+  background-color: #6fbe44;
+}
+
+/* TITLE */
+
+.site-title{
+  position: relative;
+  background-color: #000;
+  margin: auto;
+  margin-top: 74px;
+  padding: 15% 26%;
+}
+
+.site-title::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url("../images/veggies-on-table.jpg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+
+.site-title h1{
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  color: #6fbe44;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+  text-shadow: 2px 0 5px #000;
+
+}
+
+.title-buttons{
+  position: relative;
+  margin: 15px 20px 15px 0;
+  color: #fff;
+  font-weight: 400;
+  border: 1px solid #6fbe44;
+  text-shadow: 2px 0 5px #000;
+  transition: 0.2s ease-in-out;
+}
+
+.title-buttons:hover{
+  text-shadow: 2px 0 5px #000;
+  background-color: #6fbe44;
+  border: 1px solid #5F8D4E;
+  box-shadow: 0 0 3px #000;
+} 
+
+/* FEATURES */
+
+.feature-icon{
+  font-size: 3rem;
+  margin: 20px;
+  color: #5F8D4E;
+  transition: 0.2s ease;
+}
+
+.feature-icon:hover{
+  color: #6fbe44;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.feature-box h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.feature-box p{
+  color: #7c7c7c;
+  font-size: 1.1rem;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+  background-color:#5F8D4E;
+  text-align: center;
+  color: #fff;
+}
+
+#testimonials h2{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 2px 0 5px #000;
+}
+
+#testimonials p{
+  text-shadow: 2px 0 5px #000;
+}
+
+.customer-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.carousel-inner{
+  padding: 7% 15%;
+}
+
+.carousel-inner h1{
+  margin: 0 auto 6%;
+  font-family: 'Pacifico', sans-serif;
+  text-emphasis: "\25BC";
+  text-emphasis-color: #6fbe44;
+  text-emphasis-position: under;
+}
+
+
+/* PRODUCTS */
+
+#products{
+  padding: 7% 7%;
+}
+
+.product-col{
+  padding: 2%;
+  margin: 0 ;
+}
+
+#products h2{
+  margin: 4% auto;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.product-col h3{
+  font-size: 1.5rem;
+}
+
+#products p{
+  font-size: 1.1rem;
+}
+
+.product-btn{
+  color: #000;
+  font-weight: 400;
+  transition: 0.2s ease-in-out;
+}
+
+.product-btn:hover{
+  text-shadow: 2px 0 5px #000;
+  background-color: #6fbe44;
+  border: 1px solid #5F8D4E;
+}
+
+
+/* LOCATIONS */
+
+#locations{
+  background-color: #5F8D4E;
+  color: #fff;
+}
+
+#locations h2{
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.location-btn{
+  font-weight: 400;
+  margin: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.location-btn:hover{
+  box-shadow: 0 0 3px #000;
+}
+
+
+/* FOOTER */
+
+.footer-icon{
+  font-size: 2rem;
+  margin: 0 10px;
+  color: #6e6e6e;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-icon:hover{
+  color: #6fbe44;
+}
+
+#footer p{
+  font-size: 1.3rem;
+}
+
+.social-icons-container{
+  margin-bottom: 20px;
+}
+
+
+/* RESPONSIVE STYLING */
+
+@media (max-width:992px) {
+
+  .site-title {
+    margin-top: auto;
+    padding: 14% 13%;
+  }
+
+  .navbar{
+    position: static;
+  }
+
+}
+
+@media (max-width:768px) {
+  .site-title{
+    text-align: center;
+  }
+
+  .site-title h1{
+    font-size: 2.5rem;
+  }
+
+  .title-buttons{
+    font-size: 1.1rem;
+  }
+
+  #products h2{
+    font-size: 2rem;
+  }
+
+  #testimonials h2{
+    font-size: 2rem;
+  }
+
+  #locations h2{
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width:500px) {
+
+  .container-fluid{
+    padding: 15% 13% !important;
+  }
+
+  .navbar-brand{
+    font-size: 1rem !important;
+  }
+
+  .nav-link{
+    font-size: 0.8rem;
+  }
+
+  .site-title h1{
+    font-size: 2rem !important;
+  }
+
+  .title-buttons{
+    font-size: smaller !important;
+    width: 70%;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feature-icon{
+    font-size: 2rem !important;
+  }
+
+  .feature-box h3{
+    font-size: 1.3rem !important;
+  }
+
+  .feature-box p{
+    font-size: 0.8rem !important;
+  }
+
+  .carousel h1{
+    font-size: large !important;
+  }
+
+  #testimonials h2{
+    font-size: medium !important;
+    font-weight: 600 !important;
+  }
+
+  #products{
+    padding: 15% 7%;
+  }
+
+  #products h2{
+    font-size: 1.6rem !important;
+    font-weight: 600;
+  }
+
+  .card{
+    width: 8rem !important;
+    margin: 0 auto !important;
+  }
+
+  .product-col h3{
+    font-size: medium !important;
+  }
+
+  .product-btn{
+    font-size: smaller;
+  }
+
+  p{
+    font-size: 0.8rem !important;
+  }
+  
+  #locations h2{
+    font-size: 2rem;
+  }
+
+  .footer-icon{
+    font-size: 1.5rem;
+  }
+
+}
